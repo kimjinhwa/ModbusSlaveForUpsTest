@@ -1,0 +1,162 @@
+html {
+    min-width: 850px;
+}
+
+body {
+    /* width: 850px; */
+    margin: 100 px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#drawing {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+    color: white;
+}
+
+.chargeInfo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* align-items */
+}
+
+/* .chargerStatus{
+    margin-top: 0px;
+} */
+.inputStatus {
+    padding-right: 30px;
+}
+
+.batteryStatus {
+    padding-left: 30px;
+}
+
+.inputStatus td,
+.inputStatus th,
+.batteryStatus td,
+.batteryStatus th {
+    border: 1px solid #ddd;
+    padding: 18px;
+}
+
+.chargerStatus td,
+.chargerStatus th {
+    border: 0px solid #ddd;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.inputStatus tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.inputStatus tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.inputStatus tr:hover {
+    background-color: #ddd;
+}
+
+.batteryStatus tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.batteryStatus tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.batteryStatus tr:hover {
+    background-color: #ddd;
+}
+
+.inputStatus th,
+.batteryStatus th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.chargerStatus th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #eef5f2e7;
+    color: rgb(16, 15, 15);
+}
+
+.chargerStatus tr {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #18392d;
+    color: white;
+}
+
+
+.navbar_menu {
+    /* width: 300px; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #263343;
+    padding: 8px 12px;
+}
+
+.navbar_menu {
+    display: flex;
+    ;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navbar_menu li {
+    padding: 8px 12px;
+}
+
+.navbar_menu li:hover {
+    background-color: #d49466;
+    border-radius: 4px;
+}
+
+.navbar_icons {
+    list-style: none;
+    color: white;
+    display: flex;
+}
+
+.myCanvas {
+    background-color: #eee;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    ;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(216, 201, 201);
+    ;
+    color: white;
+    text-align: center;
+}

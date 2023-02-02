@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Modbus RTU Usage</h1> 
+   <p><h2>Device id : 1</h2> </p>
+   <p><h2>Seria baud Rate: 9600 pbs None parity, 8data bit</h2> </p>
+   <p><h3>Firm Ware upload Ip address(default) : 192.168.0.57</h3> </p>
+   <p><h3>Input Voltage Range: 3 V to 17V </h3> </p>
+   <p> 4P interface : 1-RxD, 2-TxD, 3-Vcc, 4-GND </p>
+   <p> Board Serial Program : 
+    <br>1. Jumper ON
+    <br>2. Reset
+    <br>3. DownLoad
+    <br>4. Reset 
+   </p>
+   <p></p>
+   <p>모드버스의 표준 보기</p>
+   <p>[modbus.org](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://modbus.org/docs/Modbus_Application_Protocol_V1_1b.pdf)  </p>
+  
+   <p>udp moniterning : nc -ul -p 1235</p>
+   <p>Can be use wifi AP</p>
+   <p> ssid = "CHA_IFT"; password = "iftech0273"; </p>
+   
+   <P>1. 총 60개의 레지스터를 갖는다. </P>
+   <P> 각 레지스터는 0번지 부터 시작합니다 (국제 표준Modbus는 1부터 시작)    </P>
+   <P> 데이타를 쓰기 위해서는 0x06을 사용합니다.  </P>
+   <P> Read Input Register(0x04) 과 Read Holding Register(0x03)는 같은 펑션을 수행합니다.</P>
+   <P>01 (0x01) Read Coils support</P>
+  
+  
+</body>
+</html>
